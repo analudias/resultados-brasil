@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Resultados do Brasil</string>
     <string name="titulo_resultados">Resultados do Brasil</string>
+    <string name="tela_titulo_resultado">Futebol - Seleção Principal</string>
+    <string name="time_brasil">Brasil</string>
+    <string name="time_adversario">Chile</string>
+    <string name="icon_versus">X</string>
+    <string name="nome_transmissao">Transmissão</string>
 </resources>
