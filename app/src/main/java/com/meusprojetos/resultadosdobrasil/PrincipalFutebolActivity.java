@@ -23,6 +23,6 @@ public class PrincipalFutebolActivity extends AppCompatActivity {
         String adversario = dados.getString("futebol_advesario");
 
         textBrasil.setText("Brasil");
-        textAdversario.setText("Adversário");
+        textAdversario.setText("Chile");
     }
 }
