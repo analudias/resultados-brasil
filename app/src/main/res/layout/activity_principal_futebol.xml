@@ -4,126 +4,104 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp">
+    android:padding="20dp"
+    android:orientation="vertical">
+
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textTituloEsporte"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tela_titulo_resultado" />
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:text="@string/tela_titulo_resultado"
+        android:textSize="28sp" />
 
-    <TextView
-
-    <
-
-    <
-
-    <
-
-    <
-
-    <
-
-    <
-
-    < HEAD
-        android:id="@+id/textBrasil"
-    =======
-    android:id="@+id/textView7"
-    >>>>>>> 22b901c7482d94f088a1908d21de04948a5b0a11
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="52dp"
-    android:layout_marginLeft="52dp"
-    android:layout_marginTop="64dp"
-    android:text="@string/time_brasil"
-    android:textSize="36sp"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <TextView
-
-    <
-
-    <
-
-    <
-
-    <
-
-    <
-
-    <
-
-    < HEAD
-        android:id="@+id/textAdversario"
-    =======
-    android:id="@+id/textView8"
-    >>>>>>> 22b901c7482d94f088a1908d21de04948a5b0a11
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="64dp"
-    android:layout_marginEnd="68dp"
-    android:layout_marginRight="68dp"
-    android:text="@string/time_adversario"
-    android:textSize="36sp"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:text="@string/icon_versus"
-        android:textSize="36sp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
 
-    <
+        <TextView
+            android:id="@+id/textBrasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/time_brasil"
+            android:textSize="24sp"/>
 
-    <
+        <TextView
+            android:id="@+id/textAdversario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/time_adversario"
+            android:textSize="24sp"/>
+    </LinearLayout>
 
-    <
-
-    <
-
-    <
-
-    <
-
-    < HEAD
-        app:layout_constraintEnd_toStartOf="@+id/textAdversario"
-        app:layout_constraintHorizontal_bias="0.539"
-        app:layout_constraintStart_toEndOf="@+id/textBrasil"
-    =======
-    app:layout_constraintEnd_toStartOf="@+id/textView8"
-    app:layout_constraintHorizontal_bias="0.539"
-    app:layout_constraintStart_toEndOf="@+id/textView7"
-    >>>>>>> 22b901c7482d94f088a1908d21de04948a5b0a11
-    app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="496dp"
-        android:text="@string/nome_transmissao"
-        android:textSize="18sp" />
+        android:layout_weight="0"
+        android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="32dp" />
+        <TextView
+            android:id="@+id/textResultadoBrasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/placar_brasil"
+            android:gravity="center"
+            android:textSize="39sp"/>
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="88dp"
-        android:layout_marginRight="88dp" />
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/icon_versus"
+            android:gravity="center"
+            android:textSize="29sp"/>
+
+        <TextView
+            android:id="@+id/textResultadoAdversario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/placar_adversario"
+            android:gravity="center"
+            android:textSize="39sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_transmissao"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/sportv" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/espn" />
+    </LinearLayout>
+
 </LinearLayout>

@@ -6,4 +6,6 @@
     <string name="time_adversario">Chile</string>
     <string name="icon_versus">X</string>
     <string name="nome_transmissao">Transmissão</string>
+    <string name="placar_brasil">1</string>
+    <string name="placar_adversario">0</string>
 </resources>
