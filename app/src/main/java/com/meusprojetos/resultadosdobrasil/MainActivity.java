@@ -26,8 +26,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(getApplicationContext(), PrincipalFutebolActivity.class);
 
             //passando os dados da ativity
+            intent.putExtra("nome_partida", "Futebol - Seleção Principal");
             intent.putExtra("futebol_brasil", "Brasil");
             intent.putExtra("futebol_adversario", "Chile");
+            intent.putExtra("tempo_futebol", "1º tempo");
 
             startActivity(intent);
 

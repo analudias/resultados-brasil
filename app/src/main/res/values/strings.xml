@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Resultados do Brasil</string>
     <string name="titulo_resultados">Resultados do Brasil</string>
-    <string name="tela_titulo_resultado">Futebol - Seleção Principal</string>
+    <string name="tela_titulo_resultado">Nome partida</string>
     <string name="time_brasil">Time01</string>
     <string name="time_adversario">Time02</string>
     <string name="icon_versus">X</string>
     <string name="nome_transmissao">Transmissão</string>
     <string name="placar_brasil">1</string>
     <string name="placar_adversario">0</string>
-    <string name="tempo_futebol">1º Tempo</string>
+    <string name="tempo_futebol">tempo</string>
 </resources>
