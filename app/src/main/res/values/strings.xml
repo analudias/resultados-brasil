@@ -8,4 +8,5 @@
     <string name="nome_transmissao">Transmissão</string>
     <string name="placar_brasil">1</string>
     <string name="placar_adversario">0</string>
+    <string name="tempo_futebol">1º Tempo</string>
 </resources>
