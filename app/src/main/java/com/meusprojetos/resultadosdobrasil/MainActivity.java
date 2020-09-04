@@ -1,6 +1,7 @@
 package com.meusprojetos.resultadosdobrasil;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
@@ -20,7 +21,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imageFutebol = findViewById(R.id.imageFutebol);
+        recyclerEsportes = findViewById(R.id.recyclerEsportes);
+
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
+        recyclerEsportes.setLayoutManager(layoutManager);
+
+
 
         imageFutebol.setOnClickListener(new View.OnClickListener() {
             @Override
