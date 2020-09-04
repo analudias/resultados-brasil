@@ -1,15 +1,19 @@
 package com.meusprojetos.resultadosdobrasil;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
-    private ImageView imageFutebol;
+    private RecyclerView recyclerEsportes;
+    private List<Esportes> esportes = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
