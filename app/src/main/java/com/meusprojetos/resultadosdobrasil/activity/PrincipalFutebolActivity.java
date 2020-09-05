@@ -1,9 +1,11 @@
-package com.meusprojetos.resultadosdobrasil;
+package com.meusprojetos.resultadosdobrasil.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.meusprojetos.resultadosdobrasil.R;
 
 public class PrincipalFutebolActivity extends AppCompatActivity {
 

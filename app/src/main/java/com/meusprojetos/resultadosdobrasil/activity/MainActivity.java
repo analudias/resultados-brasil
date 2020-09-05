@@ -1,4 +1,4 @@
-package com.meusprojetos.resultadosdobrasil;
+package com.meusprojetos.resultadosdobrasil.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -7,7 +7,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
+
+import com.meusprojetos.resultadosdobrasil.R;
 
 import java.util.ArrayList;
 
@@ -23,8 +24,12 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerEsportes = findViewById(R.id.recyclerEsportes);
 
+        //Define o layout
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerEsportes.setLayoutManager(layoutManager);
+
+        //Define o adaptador
+
 
 
 
