@@ -9,8 +9,10 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.meusprojetos.resultadosdobrasil.R;
+import com.meusprojetos.resultadosdobrasil.model.Esportes;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
