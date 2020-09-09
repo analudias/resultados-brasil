@@ -16,6 +16,12 @@ import java.util.List;
 
 public class EsportesAdapter extends RecyclerView.Adapter<EsportesAdapter.MyViewHolder> {
 
+    private List<Esportes> listaEsportes;
+
+    public EsportesAdapter(List<Esportes> list) {
+        this.listaEsportes = list;
+    }
+
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -28,13 +34,14 @@ public class EsportesAdapter extends RecyclerView.Adapter<EsportesAdapter.MyView
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
 
-        holder.textEsporte.setText("Futebol");
-        holder.imagemEsporte.setImageResource(R.drawable.Football_pictogram);
+        Esportes esportes = listaEsportes.get(position);
+        holder.textEsporte.setText(esportes.getNomeEsporte());
+        holder.imagemEsporte.setImageResource(esportes.getImagemEsporte());
     }
 
     @Override
     public int getItemCount() {
-        return 5;
+        return listaEsportes.size();
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder{
