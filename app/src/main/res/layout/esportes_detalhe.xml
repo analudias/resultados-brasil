@@ -20,7 +20,7 @@
             <ImageView
                 android:id="@+id/imageEsporte"
                 android:layout_width="170dp"
-                android:layout_height="170dp"/>
+                android:layout_height="170dp" />
 
         </LinearLayout>
 
